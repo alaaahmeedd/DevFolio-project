@@ -158,16 +158,12 @@ ul li{
     color: #fff;
 }
 
-
-
-
 /* start header */
 
 header{
-    background-image: url('/img/hero-bg.jpg');
+    background-image: url(../img/hero-bg.jpg);
     background-size:cover ;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
 
@@ -621,7 +617,7 @@ header p {
 
 /* start counter */
 .counter{
-  background-image: url(/img/counters-bg.jpg);
+  background-image: url(../img/counters-bg.jpg);
   background-size:cover ;
   background-position: center;
   background-repeat: no-repeat;
