@@ -87,7 +87,6 @@ ul li{
 
 .navbar .dropdown{
   width:160px;
- 
 
 }
 
@@ -97,22 +96,22 @@ ul li{
   }
 
 
-  .navbar .dropdown ul a {
-    font-size: 14px;
-    font-weight: 500;
-    color: #4e4e4e;
-    transition: all 0.3s;
-    }
-  
-  
-  .navbar .dropdown ul a:hover,
-  .navbar .dropdown ul .active:hover,
-  .navbar .dropdown ul li:hover>a {
-    color: #0078ff;
-    background-color: transparent;
+.navbar .dropdown ul a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4e4e4e;
+  transition: all 0.3s;
   }
 
-  .dropdown:hover > .dropdown-menu,
+
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #0078ff;
+  background-color: transparent;
+}
+
+.dropdown:hover > .dropdown-menu,
 .dropend:hover > .dropdown-menu {
   display: block;
 }
