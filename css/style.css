@@ -644,6 +644,10 @@ header p {
 
   }
 
+  #about .media{
+    margin: auto;
+  }
+
 }
 
 /* start portfolio */
