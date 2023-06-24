@@ -162,55 +162,55 @@ ul li{
   border: none;
 }
 
+.navbar .navbar-brand{
+  color: #fff;
+}
+
 
 
 /* start header */
 
 header{
-    background-image: url(../img/hero-bg.jpg);
-    background-size:cover ;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
+  background-image: url(../img/hero-bg.jpg);
+  background-size:cover ;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
 
 }
 
 #home .layer{
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 0;
-    left: 0px;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
 
 }
 
-
-
 header h1 {
-    font-size: 72px;
-    color: #fff;
+  font-size: 72px;
+  color: #fff;
 }
 
 header p {
-    
-    color: #fff;
-    text-align: center;
+  color: #fff;
+  text-align: center;
 }
 
-  header p::after {
-    content: "";
-    position: absolute;
-    font-size: 36px;
-    translate: -2rem 0px;
-    animation-name: typing;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-  
-}
+header p::after {
+  content: "";
+  position: absolute;
+  font-size: 36px;
+  translate: -2rem 0px;
+  animation-name: typing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 
+}
 
 @keyframes typing {
     1% {
@@ -645,7 +645,7 @@ header p {
   }
 
   #about .media{
-    margin: auto;
+    /* margin: 0 auto ; */
   }
 
 }
