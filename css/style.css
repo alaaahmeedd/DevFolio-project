@@ -716,14 +716,20 @@ header p::after {
   border-radius: 4px;
     
 }
+
+#blog .card-img,#blog .author-info,#footer .credits{
+  cursor: pointer;
+
+}
   
 #blog .card-box .card-category{
   font-size: 11.2px;
 }
 
-#blog .card-title:hover{
+#blog .card-title:hover,#blog .author:hover{
   color: var(--main-color);
   transition: all 0.5s ease-in-out;
+  
 
 }
 
@@ -812,11 +818,6 @@ header p::after {
   border-radius: 50px;
   transition: all 0.4s;
 }
-
-
-
-
-
 
 
 
